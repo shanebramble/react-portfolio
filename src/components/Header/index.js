@@ -1,9 +1,12 @@
 import React from 'react'
+import Navigation from '../Navigation'
 
 function Header() {
     return (
         <div>
-            <h2>Shane Bramble -Wade</h2>
+            <h1>Shane Bramble-Wade</h1>
+            {/* <!-- Navigation Bar --> */}
+            <Navigation/>
         </div>
     )
 }
