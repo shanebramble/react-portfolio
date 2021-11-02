@@ -1,25 +1,19 @@
 import React from 'react';
-import './App.css';
+import './assets/css/styles.css';
 import Header from './components/Header';
-import Navigation from './components/Navigation';
-import Project from './components/Project';
-import Footer from './components/Footer';
+// import Project from './components/Project';
+// import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
-      <div>
         <Header></Header>
-      </div>
-      
-      <main>
+      {/* <main>
         <Project></Project>
       </main>
-
       <footer>  
         <Footer></Footer>
-      </footer>
-
+      </footer> */}
     </div>
   );
 }

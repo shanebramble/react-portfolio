@@ -1,14 +1,15 @@
-import React from 'react'
-import Navigation from '../Navigation'
+import React from 'react';
+import Navigation from '../Navigation';
+
 
 function Header() {
     return (
-        <div>
+        <header>
             <h1>Shane Bramble-Wade</h1>
             {/* <!-- Navigation Bar --> */}
             <Navigation/>
-        </div>
+        </header>
     )
 }
 
-export default Header
+export default Header;
